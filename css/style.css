@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: #635854;
+}
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-lin {
+    text-decoration: none;
+    color: #fff;
+    border-top: #3596F5;
+}
+.navbar-ite {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596F5;
+}
+.navbar-text {
+    display: block;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-contacts {
+    text-align: right;
+}
+.navbar-phone {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+}
+.image {
+    width: 650px;
+    margin-left: -200px;
+}
+.image img {
+    width: 100%;
+    width: 700px;
+}
+.selector {
+    text-align: center;
+    padding: 30px 40px;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.selector h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #635854;
+}
+.number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #635854;
+    margin: 40px;
+}
+.floor-controls {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.arrow {
+    background-color: transparent;
+    color: #3596F5;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+.rif {
+    background-color: #3596F5;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+footer {
+    background-color: #D7D7D7;
+    border-top: 2px solid #3596F5;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-phone {
+    color: #635854;
+}
+.lang {
+    margin-left: 40px;
+    width: 20px;
+}
+.lan {
+    width: 20px;
+    margin-left: -6px;
+}
+.footer-links {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #635854;
+    margin-right: 30px;
+}
+.footer-links {
+    color: #635854;
+}
